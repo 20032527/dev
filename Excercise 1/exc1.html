@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baggage Weight Checker</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h2>Check Your Baggage Weight</h2>
+
+    <label>Enter baggage weight (kg):</label>
+    <input type="number" id="baggageInput">
+    <button onclick="check()">Check Weight</button>
+
+    <div id="removeSection" style="display: none; margin-top: 10px;">
+        <p>Your baggage is overweight. Please remove some items.</p>
+        <label>Enter weight to remove (kg):</label>
+        <input type="number" id="removeInput">
+        <button onclick="removeWeight()">Remove Weight</button>
+    </div>
+
+</body>
+</html>
